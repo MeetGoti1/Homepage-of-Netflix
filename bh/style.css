@@ -1,0 +1,141 @@
+/* Style the body element */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header element */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #141414;
+  height: 60px;
+}
+
+/* Style the logo element */
+.logo {
+  width: 100px;
+  margin-left: 20px;
+}
+
+/* Style the navbar element */
+.navbar {
+  display: flex;
+  margin-right: 20px;
+}
+
+/* Style the navbar links */
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* Style the active navbar link */
+.navbar a.active {
+  font-weight: bold;
+}
+
+/* Style the main element */
+.main {
+  background-color: #181818;
+  color: white;
+}
+
+/* Style the banner element */
+.banner {
+  position: relative;
+  height: 80vh;
+}
+
+/* Style the banner image */
+.banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Style the banner content */
+.banner-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  width: 40%;
+  background: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+/* Style the banner title */
+.banner-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* Style the banner description */
+.banner-description {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Style the banner buttons */
+.banner-buttons {
+  display: flex;
+  margin-top: 20px;
+}
+
+/* Style the banner button */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Style the play button */
+.button:first-child {
+  background-color: #e50914;
+  margin-right: 10px;
+}
+
+/* Style the row element */
+.row {
+  margin: 20px;
+}
+
+/* Style the row title */
+.row-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Style the row images */
+.row-images {
+  display: flex;
+  overflow-x: scroll;
+}
+
+/* Style the row image */
+.row-image {
+  width: 300px;
+  height: 170px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+/* Style the footer element */
+.footer {
+  background-color: #141414;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the footer text */
+.footer-text {
+  font-size: 0.8rem;
+}
